@@ -6,3 +6,5 @@
 * Pnpm
    - Project A needs lodash -> Stores lodash in a central place.
    - Project B needs lodash -> Links to the same lodash stored for Project A.
+* Setup Project
+  - npx create-next-app@latest nextjs-dashboard --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example" --use-pnpm
