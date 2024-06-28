@@ -8,3 +8,10 @@
    - Project B needs lodash -> Links to the same lodash stored for Project A.
 * Setup Project
   - npx create-next-app@latest nextjs-dashboard --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example" --use-pnpm
+ 
+* Inbuild routing system no need to install third party routing like react ,, because that is library not a framework
+  - app folder -> page.js is a initiall file which renders first in browser
+  - app folder -> about folder -> page.js
+
+* Link
+ - react native provides Link component help to navigate between pages
