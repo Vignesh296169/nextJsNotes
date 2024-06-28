@@ -15,3 +15,5 @@
 
 * Link
  - react native provides Link component help to navigate between pages
+ - why-because when we use anchor tag the pages will re-renders so we use link tag in react and next js
+ - In Next.js, useRouter is a React hook that provides access to the routing functionalities within your client-side components. It's particularly useful for programmatically navigating between routes or accessing information about the current route.(Important have to import from the next/navigation not from next/router) -> only working in client components
