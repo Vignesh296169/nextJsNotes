@@ -21,3 +21,7 @@
     next/router) -> only working in client components("use client").
 * Components .
    - Initailly a next js  create file into server component (server side jobs)
+   - when you need to use server or client component (https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns)
+* Dynamic routes.
+  - Web Development: In the context of URLs, as mentioned before, a slug is a part of a web address that identifies a specific page in a readable way.
+  - App folder -> Items folder ->[slug] folder ->page.js==Localhost:3000/Items/id
