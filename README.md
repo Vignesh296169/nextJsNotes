@@ -25,3 +25,4 @@
 * Dynamic routes.
   - Web Development: In the context of URLs, as mentioned before, a slug is a part of a web address that identifies a specific page in a readable way.
   - App folder -> Items folder ->[slug] folder ->page.js==Localhost:3000/Items/id
+  - Use Params props in function and get the string query
