@@ -1,6 +1,7 @@
 # nextJsNotes
 * Code splitting with React.lazy and Suspense
   - you load only the parts you need right now. When you need other parts, you load them later.
+  - SEO: Much better SEO performance since the content is pre-rendered and easily crawlable by search engines.
 * Server Components
    - Your friend (the server) builds some parts, and you (your computer) build other parts, and together you create the whole castle (your app) more easily and quickly!
 * Pnpm
@@ -32,3 +33,6 @@
   - new Response() this will return the value , you can see the api request on network tap
   - if you want return the array json Response.json() remove the new key word
   - (thunder client) is library for vs code. set up the post man locally
+* Query params on route
+  -in url -> localhost:800/item ? type ="finish" this query you can get in api function -> req -> req.nextUrl.searchParam.get()
+  -post api -> req.json() -> here you can access the post body values.
