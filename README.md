@@ -36,3 +36,9 @@
 * Query params on route
   -in url -> localhost:800/item ? type ="finish" this query you can get in api function -> req -> req.nextUrl.searchParam.get()
   -post api -> req.json() -> here you can access the post body values.
+* components
+  - you can create the component out side of app folder
+  - db related stuff like model and connection -> utils should outside of app route and folder.
+  - create mongo db model as singler noun collection will create pural form post-> posts
+  - by default you can not use .env property in client component
+  - in front of .env property you need to just add NEXT_PUBLIC_API_TOKEN, SO with this client compoent access the .env key
